@@ -1,7 +1,7 @@
 import 'dart:async';
 
 Stream<int> someNumbers() async* {
-  for (int i = 0; i < 12; i++) {
+  for (int i = 0; i < 10; i++) {
     await Future.delayed(Duration(seconds: 3));
     yield i;
   }

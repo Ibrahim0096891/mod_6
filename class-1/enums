@@ -1,0 +1,15 @@
+enum Division {
+  Dhaka,
+  Rajshahi,
+  Sylhet,
+  Gazipur,
+  Chandpur,
+
+}
+
+void main(){
+   String d ='hufh';
+   Division myDivision= Division.Dhaka;
+
+   print(Division.values);
+}
